@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/gin-gonic/gin"  
      api "app/pkg/api"
-     os
+     "os"
 )
 
 /*
@@ -28,7 +28,7 @@ func setupRouter() *gin.Engine {
 }
 
 func main() {
-    port := os.Getenv("SERVICE_PORT"))
+    port := os.Getenv("APP_API_PORT")
     r := setupRouter()
 	r.Run(":" + port) 
 }

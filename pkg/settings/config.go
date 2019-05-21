@@ -1,2 +1,2 @@
 package settings
-const IMAGES_DIR = "images/"
+const IMAGES_DIR = "../images/"
